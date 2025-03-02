@@ -79,6 +79,14 @@ export interface Log {
   type: string;
 }
 
+export interface ConversationState {
+  id: string;
+  description: string;
+  instructions: string[];
+  examples: string[];
+  transitions: { next_step: string; condition: string }[];
+}
+
 export interface ServerEvent {
   type: string;
   event_id?: string;
