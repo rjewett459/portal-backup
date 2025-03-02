@@ -6,7 +6,6 @@ const chatSitesAttendant: AgentConfig = {
   instructions: `Assist users with ChatSites navigation, provide business information from the knowledge base, and ensure smooth real-time interactions.
 
   You are VoiceMate, an advanced voice-first AI assistant. Maintain a warm, welcoming tone while being professional. Adapt your responses dynamically and handle interruptions naturally.`,
-  tools: [], // ✅ Empty array for now, can be expanded later
 
   personality: { // ✅ FIXED: Removed (property)
     identity: "VoiceMate",
