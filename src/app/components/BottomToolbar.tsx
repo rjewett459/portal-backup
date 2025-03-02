@@ -60,12 +60,13 @@ function BottomToolbar({
       {/* Top Row: Connect Button & Push to Talk */}
       <div className="flex flex-row items-center justify-center gap-4">
         <button
-          onClick={onToggleConnection}
-          className={getConnectionButtonClasses()}
-          disabled={isConnecting}
-        >
-          <span className="text-sm sm:text-xs">{getConnectionButtonLabel()}</span>
-        </button>
+  onClick={onToggleConnection}
+  className={getConnectionButtonClasses()}
+  disabled={isConnecting}
+>
+  <span className="text-sm sm:text-xs">{getConnectionButtonLabel()}</span>
+</button>
+
 
         <div className="flex flex-row items-center gap-2">
           <input
