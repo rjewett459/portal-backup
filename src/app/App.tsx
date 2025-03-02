@@ -254,7 +254,6 @@ function App() {
         output_audio_format: "pcm16",
         input_audio_transcription: { model: "whisper-1" },
         turn_detection: turnDetection,
-        tools,
       },
     };
 
