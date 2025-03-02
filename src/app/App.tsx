@@ -404,7 +404,11 @@ function App() {
   const agentSetKey = searchParams.get("agentConfig") || "default";
 
   return (
+<<<<<<< HEAD
     <div className="text-base flex flex-col h-screen bg-gray-100 text-gray-800 relative pb-[60px]">  
+=======
+    <div className="text-base flex flex-col h-screen bg-gray-100 text-gray-800 relative">  
+>>>>>>> 4f88101 (Add files via upload)
       <div className="p-5 text-lg font-semibold flex justify-between items-center">
         <div className="flex items-center">
           <div onClick={() => window.location.reload()} style={{ cursor: 'pointer' }}>
