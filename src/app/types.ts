@@ -51,6 +51,8 @@ export interface AgentConfig {
     (args: any, transcriptLogsFiltered: TranscriptItem[]) => Promise<any> | any
   >;
   downstreamAgents?: AgentConfig[] | { name: string; publicDescription?: string }[];
+
+  conversation_states?: ConversationState[];
 }
 
 
