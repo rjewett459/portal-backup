@@ -29,7 +29,21 @@ export interface AgentConfig {
   name: string;
   publicDescription?: string; // gives context to agent transfer tool
   instructions: string;
-  tools: Tool[];
+  personality?: {  // ✅ Add personality field
+    identity: string;
+    description: string;
+    role: string;
+    demeanor: string;
+    tone: string;
+    enthusiasm: string;
+    formality: string;
+    emotion: string;
+    filler_words: string;
+    pacing: string;
+    interruptibility: string;
+    multi_modal: string;
+    dark_mode_behavior: string;
+    animation: string;
   toolLogic?: Record<
     string,
     (args: any, transcriptLogsFiltered: TranscriptItem[]) => Promise<any> | any
