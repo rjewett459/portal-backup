@@ -243,7 +243,6 @@ function App() {
         };
 
     const instructions = currentAgent?.instructions || "";
-    const tools = currentAgent?.tools || [];
 
     const sessionUpdateEvent = {
       type: "session.update",
