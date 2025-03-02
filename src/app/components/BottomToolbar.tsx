@@ -50,8 +50,7 @@ function BottomToolbar({
   }
 
   return (
-    <div
-      className="
+    <div className="
         fixed bottom-0 left-0 w-full p-4 
         flex flex-col items-center justify-center
         transform origin-bottom scale-50 md:scale-75
